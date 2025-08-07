@@ -1,0 +1,5 @@
+1. add experiments folder (general DS workflow)
+2. add src folder along with all components(run then individually)
+3. add data, models, reports directories to .gitignore file
+4. git commit-push
+
