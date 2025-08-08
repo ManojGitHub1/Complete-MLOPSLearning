@@ -1,15 +1,20 @@
-1. add experiments folder (general DS workflow)
-2. add src folder along with all components/artifacts(run then individually)
-3. add data, models, reports directories to .gitignore file
-4. git commit-push
-
-
-
-
-
 type linting in python
 def train_model(X_train: np.ndarray, y_train: np.ndarray, params: dict) -> RandomForestClassifier:
     return clf
 X_train of type np.ndarray
 params of type dictionary
 and return of type classifier
+
+
+Building Pipeline:
+1. add experiments folder (general DS workflow)
+2. add src folder along with all components/artifacts(run then individually)
+3. add data, models, reports directories to .gitignore file
+4. git commit-push
+
+
+Setting up DVC pipeline (without params):
+5. Create dvc.yaml file and add stages to it.
+6. dvc init then do "dvc repro" to test the pipeline automation. (use/check "dvc dag" to check graph visually dag(directed acyclic graph))
+7. now git add, commit, push
+
