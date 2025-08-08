@@ -1,2 +1,7 @@
-venv
-experiments/nltk_data/*
+.venv
+logs
+
+
+data
+models
+reports

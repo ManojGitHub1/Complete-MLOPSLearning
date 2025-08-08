@@ -1,5 +1,15 @@
 1. add experiments folder (general DS workflow)
-2. add src folder along with all components(run then individually)
+2. add src folder along with all components/artifacts(run then individually)
 3. add data, models, reports directories to .gitignore file
 4. git commit-push
 
+
+
+
+
+type linting in python
+def train_model(X_train: np.ndarray, y_train: np.ndarray, params: dict) -> RandomForestClassifier:
+    return clf
+X_train of type np.ndarray
+params of type dictionary
+and return of type classifier
